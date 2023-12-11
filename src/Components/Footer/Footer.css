@@ -1,0 +1,105 @@
+.footer{
+    margin-top: 70px;
+}
+
+.footerwarpper{
+
+    background: url('../../Assets/banner.jpg');
+    width: 1200px;
+    min-height: 400px;
+    margin-left: 170px;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.footerContent{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.footerContent p{
+    color: #fff;
+           
+}
+
+.footerContent span{
+    margin-top: 30px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.subscribe{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.subscribe input{
+    width: 200px;
+    padding: 8px 15px; 
+    border: none;
+    outline: none;
+}
+
+.subscribe button{
+    background-color: #ED7D31;
+    color: #fff;
+    padding: 8px 15px; 
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+   
+       
+.footer-main{
+    padding: 80px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}  
+
+.footer-content span{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.footer-content .parag{
+    padding-top: 20px;
+}
+
+.newsletter h2{
+    padding-bottom: 10px;
+}
+    
+.newsletter input{
+    width: 200px;
+    background-color: #F0F0F0;
+    padding: 8px 15px; 
+    border: none;
+    outline: none;
+} 
+
+.newsletter button{
+    background-color: #ED7D31;
+    color: #fff;
+    padding: 8px 15px; 
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.social p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.social-img{
+    padding-top: 20px;
+}
+
+.social-img img{
+    width: 30px;
+    height: 30px;
+}

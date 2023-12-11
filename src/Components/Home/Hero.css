@@ -1,0 +1,90 @@
+.hero{
+    top: 0;
+    
+}
+
+.hero-banner{
+    top: 0;
+    background: url('../../Assets//main.jpg') rgba(0, 0, 0, 0.5);
+    position: absolute;
+    min-width: 100%;
+    min-height: 80vh;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    z-index: -999;
+    position: relative;
+}
+
+.hero-box{
+    border: 1px solid #000;
+    width: 1000px;
+    padding: 20px;
+    background-color: #fff;
+    margin-left: 300px;
+}
+
+.hero-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-menu{
+    display: flex;
+    gap: 30px;
+    color: 31304D;
+}
+
+.hero-menu li{
+    list-style: none;
+}
+
+.btn{
+    padding: 10px;
+    background-color: #31304D;
+    color: #fff;
+    cursor: pointer;
+}
+
+button{
+    cursor: pointer;
+}
+
+.hero-content{
+    text-align: center;
+    padding-top: 50px;
+    font-family: italic;
+    
+}
+
+.hero-content .travel{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-content span{
+    color: #fff;
+    font-size: 45px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-content button{
+    padding: 10px 20px 10px 20px;
+    background-color: #fff;
+    color: #31304D;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
